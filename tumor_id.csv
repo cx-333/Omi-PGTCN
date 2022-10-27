@@ -1,0 +1,35 @@
+﻿Tumor_id,Tumor_name,Abbr,Number,Train,Validation,Test
+0,Testicular Germ Cell Tumors,TGCT,122,48,36,38
+1,Head and Neck squamous cell carcinoma,HNSC,338,135,101,102
+2,Breast invasive carcinoma,BRCA,626,250,187,189
+3,Bladder Urothelial Carcinoma,BLCA,419,167,125,127
+4,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,DLBC,33,13,9,11
+5,Cervical squamous cell carcinoma and endocervical adenocarcinoma,CESC,168,67,50,51
+6,Liver hepatocellular carcinoma,LIHC,178,71,53,54
+7,Rectum adenocarcinoma,READ,73,29,21,23
+8,Kidney renal clear cell carcinoma,KIRC,323,129,96,98
+9,Stomach adenocarcinoma,STAD,293,117,87,89
+10,Colon adenocarcinoma,COAD,239,95,71,73
+11,Sarcoma,SARC,219,87,65,67
+12,Esophageal carcinoma,ESCA,124,49,37,38
+13,Pheochromocytoma and Paraganglioma,PCPG,82,32,24,26
+14,Glioblastoma multiforme,GBM,32,12,9,11
+15,Prostate adenocarcinoma,PRAD,349,139,104,106
+16,Kidney Chromophobe,KICH,62,24,18,20
+17,Uterine Corpus Endometrial Carcinoma,UCEC,293,117,87,89
+18,Skin Cutaneous Melanoma,SKCM,348,139,104,105
+19,Kidney renal papillary cell carcinoma,KIRP,249,99,74,76
+20,Uveal Melanoma,UVM,12,4,3,5
+21,Pancreatic adenocarcinoma,PAAD,97,38,29,30
+22,Lung adenocarcinoma,LUAD,53,21,15,17
+23,Uterine Carcinosarcoma,UCS,48,19,14,15
+24,Cholangiocarcinoma,CHOL,30,12,9,9
+25,Thymoma,THYM,113,45,33,35
+26,Lung squamous cell carcinoma,LUSC,26,10,7,9
+27,Chronic Myelogenous Leukemia,LCML,225,90,67,68
+28,Thyroid carcinoma,THCA,368,147,110,111
+29,Mesothelioma,MESO,61,24,18,19
+30,Brain Lower Grade Glioma,LGG,432,172,129,131
+31,Ovarian serous cystadenocarcinoma,OV,53,21,15,17
+32,Adrenocortical carcinoma,ACC,45,18,13,14
+,,,6133,,,
