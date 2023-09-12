@@ -5,7 +5,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/cx-333/Omi-PGTCN?style=social)](https://github.com/cx-333/Omi-PGTCN/network/members)
 ![DOI](https://zenodo.org/badge/doi/001/updating.svg)
 
- **Paper source code:** Combining VAE with GTCN for Pan-cancer Prediction and Biomarker Identification using Multi-omics Data.
+ **Paper source code:** A Novel Conjunctive model for Pan-cancer Prediction and Biomarker Identification using Multi-omics Data.
 
  **Xin Chen** (cxregion@163.com)
 
@@ -13,13 +13,27 @@ School of Electrical and Information Engneering, ZhengZhou University.
 ## Abstract
 <p align='justify'>
   
-**Objective:**   To overcome the phenomenon of “dimensionality curse” and class imbalance existing in biomolecule data and take full advantage of it to realize pan-cancer prediction and biomarker identification.
-  
-**Methods:**  We collected a total of 6133 samples with 33 types of tumor from the cancer genome atlas (TCGA), which had been classified and labeled for training, validation and testing, composed of multi-omics data, including DNA methylation, RNA expression and reverse phase protein array (RPPA). Then, we integrate variational autoencoder (VAE) and graph tree convolution network (GTCN) as an entity capable of projecting high-dimensional features to low latent space, generating samples similar to input data, fulfilling pan-cancer prediction and vital biomarkers associated with specific tumor types. The suggested model’s performance was tested following 10-fold cross validation and then compared to main-flow relevant models.
-
-**Results:** The average accuracy of the proposed model reached 93.90±1.01% after 10-fold cross validation in pan-cancer prediction task. Additional relevant evaluation metrics F1 score, precision and recall were 92.03±0.3%, 90.05±1.02% and 91.08±1.0%, respectively. For the prediction performance of single type of cancer, such as LGG and BRCA datasets, the proposed model achieved 83.46±0.19% and 84.02±0.25% prediction accuracy, separately. Furthermore, the model also identified a few essential biomarkers which were proved by the survival curve analysis.
-
-**Conclusion:**  We developed a pan-cancer prediction and biomarker identification system based on jointing VAE and GTCN using multi-omics data. This approach indicates multi-omics data have close relationship with cancer and is conducive to understanding of the mechanism of cancer formation. The predictive results can be consulted by doctors. </p>
+To overcome the phenomenon of “dimensionality curse” and class imbalance
+existing in biomolecule data and take full advantage of it to realize pan-cancer
+prediction and biomarker identification. This paper collected a total of 6133 sam-
+ples with 3 types of tumor from the cancer genome atlas (TCGA), which had been
+classified and labeled for training, validation and testing, composed of multi-omics
+data, including DNA methylation, RNA expression and reverse phase protein
+array (RPPA). Then, integrate variational autoencoder (VAE) and graph tree
+convolution network (GTCN) as an entity capable of projecting high-dimensional
+features to low latent space, generating samples similar to input data, fulfilling
+pan-cancer prediction and vital biomarkers associated with specific tumor types.
+The suggested model’s performance was tested following 10-fold cross validation
+and then compared to main-flow relevant models. The average accuracy of the
+proposed model reached 93.90±1.01% after 10- fold cross validation in pan-cancer
+prediction task. Additional relevant evaluation metrics F1 score, precision and
+recall were 92.03±0.3%, 90.05±1.02% and 91.08±1.0%, respectively. For the pre-
+diction performance of single type of cancer, such as LGG and BRCA datasets, the proposed model achieved 83.46±0.19% and 84.02±0.25% prediction accu-
+racy, separately. Furthermore, the model also identified a few essential biomarkers
+which were proved by the survival curve analysis. The proposed approach indi-
+cates multi-omics data have close relationship with cancer and is conducive to
+understanding of the mechanism of cancer formation. The predictive results can
+be consulted by doctors. </p>
 
 # File details
 
